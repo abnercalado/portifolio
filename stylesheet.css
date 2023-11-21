@@ -145,7 +145,7 @@ nav#topo2 a {
     width: 1200px; height: 411px;
 }
 @media screen and (max-width: 768px) {
-    .top, .perguntas, .lista {
+    .top, .perguntas, .lista, .projetosdetalhados {
         width: 100%;
         flex-direction: column;
         padding: 0px;
