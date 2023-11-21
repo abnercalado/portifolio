@@ -126,6 +126,7 @@ nav#topo2 a {
     color: white;
     font-size: 25px;
     text-align: center;
+    align-items: center;
 }
 
 #nomediv3 {
@@ -141,33 +142,15 @@ nav#topo2 a {
     text-decoration: underline;
 }
 
-
 @media screen and (max-width: 768px) {
     .top, .perguntas, .lista, .projetosdetalhados {
-        width: 100%;
         flex-direction: column;
         padding: 0px;
         font-size: 100%;
     }
     }
 
-    .fotoquiz {
-        width: 1200px;
-        height: 411px;
-        background:#EFEFEF; 
-        box-shadow: 1px 1px 10px #999; 
-        margin: auto; 
-        text-align: center; 
-        position: relative;
-        -webkit-border-radius: 5px;
-        -moz-border-radius: 5px;
-        border-radius: 5px;
-        padding-top: 5px;
-    }
-
     #qf {
-        justify-content: center;
-        overflow-x: scroll;
-        overflow-y: hidden;
-        white-space:nowrap;
+        height: 343px;
+        width: 193px;
     }
