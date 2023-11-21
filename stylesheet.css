@@ -141,9 +141,7 @@ nav#topo2 a {
     text-decoration: underline;
 }
 
-#qf {
-    width: 1200px; height: 411px;
-}
+
 @media screen and (max-width: 768px) {
     .top, .perguntas, .lista, .projetosdetalhados {
         width: 100%;
@@ -151,4 +149,25 @@ nav#topo2 a {
         padding: 0px;
         font-size: 100%;
     }
+    }
+
+    .fotoquiz {
+        width: 1200px;
+        height: 411px;
+        background:#EFEFEF; 
+        box-shadow: 1px 1px 10px #999; 
+        margin: auto; 
+        text-align: center; 
+        position: relative;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        padding-top: 5px;
+    }
+
+    #qf {
+        width: 1200px; height: 411px;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        white-space:nowrap;
     }
