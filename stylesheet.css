@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.topo {
+    background-color: #0D1B2A;
+    padding: 10px;
+    border: 5px solid rgb(78, 78, 78);
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.topo2 {
+    background-color: #1B263B;
+    border: 5px solid rgb(78, 78, 78);
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+#abner {
+    border-radius: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid rgba(255, 0, 0, 0.426);
+}
+
+#body {
+    background-color: gray;
+}
+
+#apresentação {
+    color: white;
+    font-size: 50px;
+}
+
+.lista {
+    display: flex;
+    font-size: 30px;
+    margin: 25px;
+}
+
+nav#menu a {
+    color: white;
+    text-decoration: none;
+}
+
+.ultopo2 {
+    display: flex;
+    font-size: 30px;
+    margin: 25px;
+    justify-content: center;
+    list-style: none;
+}
+nav#topo2 a {
+    color: white;
+    text-decoration: none;
+}
+
+#twitter {
+    color: white;
+    text-decoration: none;
+}
+
+#twitter:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+#Github {
+    color: white;
+    text-decoration: none;
+}
+
+#Github:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+#Instagram {
+    color: white;
+    text-decoration: none;
+}
+
+#Instagram:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+
+#projetos:hover {
+    background-color: rgb(39, 39, 39);
+    text-decoration: underline;
+    color: white;
+    }
+
+#sobre:hover {
+    background-color: rgb(39, 39, 39);
+    text-decoration: underline;
+    color: white;
+}
+
+#contato:hover {
+    background-color: rgb(39, 39, 39);
+    text-decoration: underline;
+    color: white;
+}
+
+#dev {
+    font-size: 30px;
+    color: white
+}
+
+.projetosdetalhados {
+    background-color: rgb(18, 54, 95);
+    border: 5px solid rgb(78, 78, 78);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+
+#nomediv3 {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+#nomediv3:hover {
+    font-size: 75px;
+    padding: 0px;
+    text-decoration: underline;
+}
+
+#qf {
+    width: 1200px; height: 411px;
+}
