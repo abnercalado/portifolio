@@ -144,3 +144,11 @@ nav#topo2 a {
 #qf {
     width: 1200px; height: 411px;
 }
+@media screen and (max-width: 768px) {
+    .top, .perguntas, .lista {
+        width: 100%;
+        flex-direction: column;
+        padding: 0px;
+        font-size: 100%;
+    }
+    }
