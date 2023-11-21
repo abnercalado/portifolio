@@ -166,7 +166,7 @@ nav#topo2 a {
     }
 
     #qf {
-        width: 1200px; height: 411px;
+        justify-content: center;
         overflow-x: scroll;
         overflow-y: hidden;
         white-space:nowrap;
