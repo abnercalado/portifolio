@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.divsobre {
+    background-color: #0D1B2A;
+    border: 5px solid rgb(78, 78, 78);
+}
+
+#h1 {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+#abner {
+    color: white;
+    font-size: 30px;
+    display: flex;
+}
+
+#bh, #ddd, #fff {
+    border-radius: 50px;
+}
